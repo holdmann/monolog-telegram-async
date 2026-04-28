@@ -1,0 +1,37 @@
+{
+  "name": "holdmann/monolog-telegram-async",
+  "description": "Handler for Monolog to send logs by Telegram asynchronously",
+  "keywords": [
+    "telegram",
+    "async",
+    "monolog",
+    "logging",
+    "log"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/holdmann/monolog-telegram-async/issues",
+    "source": "https://github.com/holdmann/monolog-telegram-async"
+  },
+  "authors": [
+    {
+      "name": "Oleg Sherbakov",
+      "email": "holdmann@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8",
+    "ext-json": "*",
+    "monolog/monolog": "*",
+    "guzzlehttp/guzzle": "^7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Holdmann\\Monolog\\": "src/"
+    }
+  }
+}
